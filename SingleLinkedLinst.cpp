@@ -74,7 +74,7 @@ public:
 
         return (current != NULL);
     }
-    
+
     bool delNode(int nim)
     {
         Node *current, *previous;
@@ -89,4 +89,9 @@ public:
         
             delete current;
             return true;
+    }
+
+    void traverse()
+    {
+        
     }
