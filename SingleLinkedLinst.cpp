@@ -74,6 +74,7 @@ public:
 
         return (current != NULL);
     }
+    
     bool delNode(int nim)
     {
         Node *current, *previous;
